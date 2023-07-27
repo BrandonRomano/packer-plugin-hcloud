@@ -2,11 +2,11 @@
 # https://github.com/hashicorp/integration-template#metadata-configuration
 integration {
   name = "Hetzner Cloud"
-  description = "TODO"
+  description = "The hcloud plugin can be used with HashiCorp Packer to create custom images on Hetzner Cloud."
   identifier = "packer/BrandonRomano/hcloud"
   component {
     type = "builder"
     name = "Hetzner Cloud"
-    slug = "hetzner-cloud"
+    slug = "hcloud"
   }
 }
